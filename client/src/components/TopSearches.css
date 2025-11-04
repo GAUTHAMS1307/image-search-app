@@ -1,0 +1,27 @@
+.top-searches-banner {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  padding: 1.5rem 2rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.top-searches-banner h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.top-searches-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.top-search-item {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 500;
+  backdrop-filter: blur(10px);
+}
